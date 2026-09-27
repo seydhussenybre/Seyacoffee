@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>my first website</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .main{
+            width:100%;
+            min-height:100vh;
+            background:url("https://i.ibb.co/yFD4YSdY/images.jpg");
+            background-size:cover;
+            background-position:center;
+        }
+        .navbar{
+            width:1200px;
+            height:75px;
+            margin:auto;
+        }
+        .icon{
+            width:200px;
+            float:left;
+            height:70px;
+        }
+        .logo{
+            color:orangered;
+            font-size:25px;
+            float:left;
+            padding-left:20px;
+            padding-top:10px;
+        }
+        .menu{
+            width:400px;
+            float:left;
+            height:70px;
+            
+
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        ul li{
+            list-style:none;
+            margin-left:20px;
+            margin-top:40px;
+            font-size:14px;
+           
+
+        }
+        ul li a{
+            color:blanchedalmond;
+            font-weight:bold;
+            transition: 0.4s ease-in-out;
+        }
+        ul li a:hover{
+            color:chocolate;
+
+        }
+        .search{
+            
+            width:330px;
+            float:left;
+            margin: left 270px;
+        }
+        .srch{
+            font-family:'Times New Roman';
+            width:150px;
+            height: auto;
+            background:transparent;
+            border:1px solid chocolate;
+            border-radius:40px;
+
+        }
+        .btn{
+            background-color:chocolate;
+            color:white;
+            border-radius:40px;
+            width:100px;
+            height:20px;
+        }
+        .btn:focus{
+            outline:none;
+
+        }
+        .srch:focus{
+            outline:none;
+        }
+        .content{
+            
+            width: 100px;
+            height:auto;
+            margin:right;
+            margin:right 50px;
+            color:chocolate;
+        }
+        .cn{
+            width:50px;
+            height:30px;
+            background-color:chocolate;
+            color:white
+        
+        }
+        .content:para{
+            padding-left:25px;
+            padding-bottom: 20px;
+            line-height:30px;
+            color:white;
+        }
+        p{
+            font-family:'Courier New';
+            color:white;
+            font-weight:bold;
+        }
+        .form{
+            width:260px;
+            height:380px;
+            background-color:black;
+            position:absolute;
+            left:600px;
+            top:90px;
+            border-radius:20px;
+            padding:25px;
+        }
+        .form h2{
+            width:220px;
+            font-family:sans-serif;
+            text-align: center;
+            font-size:22px;
+            background-color:white;
+            border-radius:10px;
+            margin:2px;
+            padding:8px;
+        }
+        .form input{
+            width:240px;
+            height:35px;
+            background:transparent;
+            border-bottom:1px solid orange;
+            border-top:none;
+            border-left:none;
+            border-right:none;
+            color:white;
+            font-size:15px;
+            letter-spacing: 1px;
+            margin-top:30px;
+            margin-bottom: 20px;
+        }
+        button{
+            width:90px;
+            height:30px;
+            margin-top:20px;
+            margin-bottom:15px;
+            border-radius:30px;
+            border-top:none;
+            border-bottom:none;
+            border-left:none;
+            border-right:none;
+            background-color:chocolate;
+            font-weight:bold;
+            color:white;
+        }
+        .iop{
+            width:60px;
+            height:20px,
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav bar">
+            <div class="icon">
+                <h2 class="logo">seyed coffee</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="a">home</a></li>
+                    <li><a href="a">about</a></li>
+                    <li><a href="a">service</a></li>
+                    <li><a href="a">design</a></li>
+                    <li><a href="a">content</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="type to text">
+                <a href="a"><button class="btn">search</button></a>
+            </div>
+            <div class="content">
+                <h1 >Ethiopean coffee</h1>
+                <p>coffee for bright and vibeful day</p>
+                <button ><a href"a">join us</a></button>
+                <div class="form">
+                    <h2>login here</h2>
+                    <input type="email" name="" placeholder="enter email here">
+                    <input type="password" name="" placeholder="enter password">
+                    <p></p>
+                    <button class="btnn"><a href="a">login</a></button>
+                    <p>dont have account?</p><br>
+                    <a class="iop" href="a">sign up here</a>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
